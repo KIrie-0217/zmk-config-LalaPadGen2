@@ -74,7 +74,7 @@
 &kp I       &kp O      &kp E        &kp A      &kp PERIOD                                   &kp K        &kp T         &kp N          &kp S             &kp R
 &kp Z       &kp X      &kp V        &kp C      &lt 4 SEMICOLON                              &kp M        &kp L         &kp F          &kp B             &kp SLASH
 &kp ESCAPE  &mo 3      &mo 2        &kp LCTRL  &kp LEFT_SHIFT   &kp BACKSPACE  &lt 1 SPACE  &lt 5 ENTER  &kp LEFT_GUI  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-            &none      &kp RIGHT    &kp DOWN   &kp LEFT         &kp UP         &kp UP       &kp LEFT     &kp DOWN      &kp RIGHT      &none
+            &mkp MB3   &kp RIGHT    &kp DOWN   &kp LEFT         &kp UP         &kp UP       &kp LEFT     &kp DOWN      &kp RIGHT      &none
 &mkp LCLK   &mkp RCLK  &mkp MCLK                                                                                       &mkp LCLK      &mkp RCLK         &mkp MCLK
 &mkp MB4    &mkp MB5   &kp LG(TAB)  &kp LG(D)  &kp LCTRL                                    &mkp MB4     &mkp MB5      &kp LG(TAB)    &kp LG(D)         &kp LCTRL
             >;
