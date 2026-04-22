@@ -121,13 +121,13 @@
 
         layer_4 {
             bindings = <
-&trans  &trans                      &kp LC(UP_ARROW)  &trans                 &trans                         &trans  &trans             &kp LC(LA(UP_ARROW))    &trans             &trans
-&trans  &kp LG(LC(LA(LEFT_ARROW)))  &kp LC(DOWN)      &kp LG(LC(LA(RIGHT)))  &trans                         &trans  &kp LC(LA(LEFT))   &kp LC(LA(DOWN_ARROW))  &kp LC(LA(RIGHT))  &trans
-&trans  &trans                      &trans            &trans                 &trans                         &trans  &trans             &trans                  &trans             &trans
-&trans  &trans                      &trans            &trans                 &trans  &trans  &kp LC(SPACE)  &trans  &kp LC(LA(ENTER))  &trans                  &trans             &trans
-        &trans                      &trans            &trans                 &trans  &trans  &trans         &trans  &trans             &trans                  &trans
-&trans  &trans                      &trans                                                                                             &trans                  &trans             &trans
-&trans  &trans                      &trans            &trans                 &trans                         &trans  &trans             &trans                  &trans             &trans
+&trans  &trans                      &kp LC(UP_ARROW)  &trans                 &trans                         &trans            &trans                  &trans                  &trans             &trans
+&trans  &kp LG(LC(LA(LEFT_ARROW)))  &kp LC(DOWN)      &kp LG(LC(LA(RIGHT)))  &trans                         &kp LC(LA(LEFT))  &kp LC(LA(DOWN_ARROW))  &kp LC(LA(DOWN_ARROW))  &kp LC(LA(RIGHT))  &trans
+&trans  &trans                      &trans            &trans                 &trans                         &trans            &trans                  &trans                  &trans             &trans
+&trans  &trans                      &trans            &trans                 &trans  &trans  &kp LC(SPACE)  &trans            &kp LC(LA(ENTER))       &trans                  &trans             &trans
+        &trans                      &trans            &trans                 &trans  &trans  &trans         &trans            &trans                  &trans                  &trans
+&trans  &trans                      &trans                                                                                                            &trans                  &trans             &trans
+&trans  &trans                      &trans            &trans                 &trans                         &trans            &trans                  &trans                  &trans             &trans
             >;
         };
 
