@@ -62,6 +62,11 @@
             bindings = <&kp LS(TAB)>;
             key-positions = <11 12>;
         };
+
+        henkan {
+            bindings = <&kp LC(SPACE)>;
+            key-positions = <3 4>;
+        };
     };
 
     keymap {
@@ -73,8 +78,8 @@
 &kp Q       &kp P         &kp U             &kp Y               &kp COMMA                                    &kp J        &kp D         &kp H             &kp G               &kp W
 &kp I       &kp O         &kp E             &kp A               &kp PERIOD                                   &kp K        &kp T         &kp N             &kp S               &kp R
 &kp Z       &kp X         &kp V             &kp C               &lt 4 SEMICOLON                              &kp M        &kp L         &kp F             &kp B               &kp SLASH
-&kp ESCAPE  &kp LEFT_ALT  &mo 3             &kp LCTRL           &kp LEFT_SHIFT   &kp BACKSPACE  &lt 1 SPACE  &lt 5 ENTER  &kp LEFT_GUI  &kp BACKSLASH     &kp LEFT_BRACKET    &kp RIGHT_BRACKET
-            &mkp MB3      &kp RIGHT         &kp DOWN            &kp LEFT         &kp UP         &kp UP       &kp LEFT     &kp DOWN      &kp RIGHT         &none
+&kp ESCAPE  &kp LEFT_ALT  &kp LALT          &kp LCTRL           &kp LEFT_SHIFT   &kp BACKSPACE  &lt 1 SPACE  &lt 5 ENTER  &kp LEFT_GUI  &kp BACKSLASH     &kp LEFT_BRACKET    &kp RIGHT_BRACKET
+            &mo 3         &kp RIGHT         &kp DOWN            &kp LEFT         &kp UP         &kp UP       &kp LEFT     &kp DOWN      &kp RIGHT         &none
 &mkp LCLK   &mkp RCLK     &mkp MCLK                                                                                                     &mkp LCLK         &mkp RCLK           &mkp MCLK
 &mkp MB4    &mkp MB5      &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LCTRL                                    &mkp MB4     &mkp MB5      &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LCTRL
             >;
